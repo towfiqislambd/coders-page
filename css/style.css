@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top{
+    background: #e02f36;
+}
+#top .icons a{
+    width: 40px;
+    height: 40px;
+    background:#fff;
+    color: #000;
+    display: grid;
+    text-decoration: none;
+    float: left;
+    margin:4px;
+    place-items:center;
+    transition: 0.3s;
+}
+#top .icons a:hover{
+    background:#3b5998;
+    color: #fff
+}
+#top a button{
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size:18px;
+    transition: 0.3s
+}
+#top a button:hover{
+    background:#000;
+    color: #fff
+}
+nav{
+    background:#ddd;
+    color: #333 !important;
+    position: sticky !important;
+    top: 0px;
+    left: 0px
+}
+nav span:first-child{
+    color: #e02f36;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 30px
+}
+nav ul li{
+    padding: 0px 10px
+}
+nav ul li a{
+    color: #333 !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold
+}
+#desc,#gridSec,#area,#feedback{
+    background:linear-gradient(#f2f2f2,#fff,#ddd)
+}
+#feedback h3{
+    position: relative
+}
+#feedback h3::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #e02f36;
+    bottom:-8px;
+    transform: translateX(-150px)
+}
+footer{
+    background:#222
+}
+footer p{
+    color: #bbb
+}
+footer .myicons  a{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: grid;
+    text-decoration: none;
+    float: left;
+    margin:4px;
+    place-items:center;
+    transition: 0.3s;
+    border: thin solid #fff
+}
+footer .myicons  a:hover{
+    background:#fff;
+    color: #000
+}
+footer .row:first-child{
+    border-bottom: thin dotted #bbb;
+    padding-bottom: 10px
+}
+.fix{
+    position: fixed;
+    bottom: 30px;
+    right: 40px
+}
+.fix a{
+    background:#e02f36;
+    color: #fff;
+    display: grid;
+    place-items:center;
+    font-size:25px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50%
+}
+
+
+
+
+
